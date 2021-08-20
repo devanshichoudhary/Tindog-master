@@ -1,0 +1,25 @@
+1.Muktiple Selectors
+
+/* Syntax */
+selector1, selector2{}
+/* Example */
+h1,p{
+    color: red;
+}
+
+2.Hierarchial Selectors
+/*Syntax */
+selector1 selector2{}
+/* Example */
+#title .container-fluid{
+    padding: 7%;
+}
+
+Combined Selectors
+/* Syntax */
+selector1.selector{}
+selector1#selector2{}
+/* Example */
+div.container-fluid{
+    color: red;
+}
